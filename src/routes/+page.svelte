@@ -5,7 +5,9 @@
   import { onMount } from "svelte";
 
   onMount(() => {
-    Reveal.initialize({});
+    Reveal.initialize({
+      slideNumber: true,
+    });
   });
 </script>
 
