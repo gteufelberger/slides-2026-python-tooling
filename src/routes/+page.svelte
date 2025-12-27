@@ -25,6 +25,23 @@
         <li>Point 2</li>
       </ul>
     </section>
+    <section>
+      Dependency management
+      <section>TODO</section>
+    </section>
+    <section>
+      Formatting & Linting
+      <section>TODO</section>
+    </section>
+    <section>
+      Type hints
+      <section>TODO</section>
+    </section>
+    <section>
+      Other development tips
+      <section>TODO</section>
+    </section>
+    <section>Summary</section>
   </div>
 </div>
 
