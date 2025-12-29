@@ -4,6 +4,7 @@
   import "reveal.js/dist/theme/black.css"; // Choose your theme
   import { onMount } from "svelte";
   import TitleContent from "$lib/slides/TitleContent.svelte";
+  import GoalContent from "$lib/slides/GoalContent.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -19,11 +20,7 @@
     </section>
 
     <section>
-      <h2>Goal</h2>
-      <p>
-        Show you what tools are out there so that you can decide what to use to
-        be more productive
-      </p>
+      <GoalContent />
     </section>
     <section>
       Dependency management
