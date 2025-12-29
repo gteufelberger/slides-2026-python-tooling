@@ -3,7 +3,7 @@
   import "reveal.js/dist/reveal.css";
   import "reveal.js/dist/theme/black.css"; // Choose your theme
   import { onMount } from "svelte";
-  import TitleSlideContent from "$lib/TitleSlideContent.svelte";
+  import TitleContent from "$lib/slides/TitleContent.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -15,7 +15,7 @@
 <div class="reveal">
   <div class="slides">
     <section>
-      <TitleSlideContent />
+      <TitleContent />
     </section>
 
     <section>
