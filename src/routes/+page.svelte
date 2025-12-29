@@ -5,6 +5,10 @@
   import { onMount } from "svelte";
   import TitleContent from "$lib/slides/TitleContent.svelte";
   import GoalContent from "$lib/slides/GoalContent.svelte";
+  import DependencyManagementSection from "$lib/slides/DependencyManagementSection.svelte";
+  import FormattingLintingSection from "$lib/slides/FormattingLintingSection.svelte";
+  import TypeHintsSection from "$lib/slides/TypeHintsSection.svelte";
+  import OtherTipsSection from "$lib/slides/OtherTipsSection.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -23,20 +27,16 @@
       <GoalContent />
     </section>
     <section>
-      Dependency management
-      <section>TODO</section>
+      <DependencyManagementSection />
     </section>
     <section>
-      Formatting & Linting
-      <section>TODO</section>
+      <FormattingLintingSection />
     </section>
     <section>
-      Type hints
-      <section>TODO</section>
+      <TypeHintsSection />
     </section>
     <section>
-      Other development tips
-      <section>TODO</section>
+      <OtherTipsSection />
     </section>
     <section>Summary</section>
   </div>
