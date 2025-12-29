@@ -9,7 +9,21 @@
   Tips and tricks
 </p>
 
-<div>
+<div class="qr-section">
   <span>Link to slides:</span>
   <img src={qrCode} alt="QR code link to slides" class="qr-code" />
 </div>
+
+<style>
+  .qr-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .qr-code {
+    width: 150px;
+    height: 150px;
+  }
+</style>
