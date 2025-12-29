@@ -1,2 +1,4 @@
-Formatting & Linting
-<section>TODO</section>
+<section>
+  Formatting & Linting
+  <section>TODO</section>
+</section>

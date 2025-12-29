@@ -1,2 +1,4 @@
-Other development tips
-<section>TODO</section>
+<section>
+  Other development tips
+  <section>TODO</section>
+</section>

@@ -3,14 +3,14 @@
   import "reveal.js/dist/reveal.css";
   import "reveal.js/dist/theme/black.css"; // Choose your theme
   import { onMount } from "svelte";
-  import TitleContent from "$lib/slides/TitleContent.svelte";
-  import GoalContent from "$lib/slides/GoalContent.svelte";
+  import TitleSection from "$lib/slides/TitleSection.svelte";
+  import GoalSection from "$lib/slides/GoalSection.svelte";
   import DependencyManagementSection from "$lib/slides/DependencyManagementSection.svelte";
   import FormattingLintingSection from "$lib/slides/FormattingLintingSection.svelte";
   import TypeHintsSection from "$lib/slides/TypeHintsSection.svelte";
   import OtherTipsSection from "$lib/slides/OtherTipsSection.svelte";
-  import SummaryContent from "$lib/slides/SummaryContent.svelte";
-  import SidenoteAstral from "$lib/slides/SidenoteAstral.svelte";
+  import SummarySection from "$lib/slides/SummarySection.svelte";
+  import SidenoteAstralSection from "$lib/slides/SidenoteAstralSection.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -21,30 +21,14 @@
 
 <div class="reveal">
   <div class="slides">
-    <section>
-      <TitleContent />
-    </section>
-    <section>
-      <GoalContent />
-    </section>
-    <section>
-      <DependencyManagementSection />
-    </section>
-    <section>
-      <FormattingLintingSection />
-    </section>
-    <section>
-      <TypeHintsSection />
-    </section>
-    <section>
-      <SidenoteAstral />
-    </section>
-    <section>
-      <OtherTipsSection />
-    </section>
-    <section>
-      <SummaryContent />
-    </section>
+    <TitleSection />
+    <GoalSection />
+    <DependencyManagementSection />
+    <FormattingLintingSection />
+    <TypeHintsSection />
+    <SidenoteAstralSection />
+    <OtherTipsSection />
+    <SummarySection />
   </div>
 </div>
 
