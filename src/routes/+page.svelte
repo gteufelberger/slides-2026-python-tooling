@@ -3,14 +3,14 @@
   import "reveal.js/dist/reveal.css";
   import "reveal.js/dist/theme/black.css"; // Choose your theme
   import { onMount } from "svelte";
-  import TitleSection from "$lib/slides/TitleSection.svelte";
-  import GoalSection from "$lib/slides/GoalSection.svelte";
-  import DependencyManagementSection from "$lib/slides/DependencyManagementSection.svelte";
-  import FormattingLintingSection from "$lib/slides/FormattingLintingSection.svelte";
-  import TypeHintsSection from "$lib/slides/TypeHintsSection.svelte";
-  import OtherTipsSection from "$lib/slides/OtherTipsSection.svelte";
-  import SummarySection from "$lib/slides/SummarySection.svelte";
-  import SidenoteAstralSection from "$lib/slides/SidenoteAstralSection.svelte";
+  import TitleSection from "$lib/sections/TitleSection.svelte";
+  import GoalSection from "$lib/sections/GoalSection.svelte";
+  import DependencyManagementSection from "$lib/sections/DependencyManagementSection.svelte";
+  import FormattingLintingSection from "$lib/sections/FormattingLintingSection.svelte";
+  import TypeHintsSection from "$lib/sections/TypeHintsSection.svelte";
+  import OtherTipsSection from "$lib/sections/OtherTipsSection.svelte";
+  import SummarySection from "$lib/sections/SummarySection.svelte";
+  import SidenoteAstralSection from "$lib/sections/SidenoteAstralSection.svelte";
 
   onMount(() => {
     Reveal.initialize({
