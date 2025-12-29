@@ -11,6 +11,7 @@
   import OtherTipsSection from "$lib/sections/OtherTipsSection.svelte";
   import SummarySection from "$lib/sections/SummarySection.svelte";
   import SidenoteAstralSection from "$lib/sections/SidenoteAstralSection.svelte";
+  import FeedbackSection from "$lib/sections/FeedbackSection.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -29,6 +30,7 @@
     <SidenoteAstralSection />
     <OtherTipsSection />
     <SummarySection />
+    <FeedbackSection />
   </div>
 </div>
 
