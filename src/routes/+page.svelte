@@ -23,7 +23,6 @@
     <section>
       <TitleContent />
     </section>
-
     <section>
       <GoalContent />
     </section>
