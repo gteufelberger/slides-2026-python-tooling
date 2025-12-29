@@ -9,6 +9,7 @@
   import FormattingLintingSection from "$lib/slides/FormattingLintingSection.svelte";
   import TypeHintsSection from "$lib/slides/TypeHintsSection.svelte";
   import OtherTipsSection from "$lib/slides/OtherTipsSection.svelte";
+  import SummaryContent from "$lib/slides/SummaryContent.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -38,7 +39,9 @@
     <section>
       <OtherTipsSection />
     </section>
-    <section>Summary</section>
+    <section>
+      <SummaryContent />
+    </section>
   </div>
 </div>
 
