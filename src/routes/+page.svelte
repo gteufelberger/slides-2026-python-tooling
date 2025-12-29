@@ -10,6 +10,7 @@
   import TypeHintsSection from "$lib/slides/TypeHintsSection.svelte";
   import OtherTipsSection from "$lib/slides/OtherTipsSection.svelte";
   import SummaryContent from "$lib/slides/SummaryContent.svelte";
+  import SidenoteAstral from "$lib/slides/SidenoteAstral.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -34,6 +35,9 @@
     </section>
     <section>
       <TypeHintsSection />
+    </section>
+    <section>
+      <SidenoteAstral />
     </section>
     <section>
       <OtherTipsSection />
