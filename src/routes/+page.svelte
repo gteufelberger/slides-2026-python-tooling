@@ -1,8 +1,10 @@
 <script>
   import Reveal from "reveal.js";
   import Markdown from "reveal.js/plugin/markdown/markdown.esm.js";
+  import Highlight from "reveal.js/plugin/highlight/highlight.esm.js";
   import "reveal.js/dist/reveal.css";
   import "reveal.js/dist/theme/black.css"; // Choose your theme
+  import "reveal.js/plugin/highlight/monokai.css"; // Syntax highlighting theme
   import { onMount } from "svelte";
   import TitleSection from "$lib/sections/TitleSection.svelte";
   import GoalSection from "$lib/sections/GoalSection.svelte";
@@ -17,7 +19,10 @@
   onMount(() => {
     Reveal.initialize({
       slideNumber: true,
-      plugins: [Markdown],
+      plugins: [
+        Markdown,
+        Highlight, // syntax highlighting
+      ],
     });
   });
 </script>
