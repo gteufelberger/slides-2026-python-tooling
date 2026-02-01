@@ -12,6 +12,7 @@
   import SummarySection from "$lib/sections/SummarySection.svelte";
   import SidenoteAstralSection from "$lib/sections/SidenoteAstralSection.svelte";
   import FeedbackSection from "$lib/sections/FeedbackSection.svelte";
+  import BonusSlidesSection from "$lib/sections/BonusSlidesSection.svelte";
 
   onMount(() => {
     Reveal.initialize({
@@ -31,6 +32,7 @@
     <SidenoteAstralSection />
     <SummarySection />
     <FeedbackSection />
+    <BonusSlidesSection />
   </div>
 </div>
 
