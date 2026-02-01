@@ -1,5 +1,8 @@
-<section>
-  A note on all these tools.
-  <br />
-  <a href="https://astral.sh/">https://astral.sh</a>
-</section>
+<script>
+  import { asset } from "$app/paths";
+</script>
+
+<section
+  data-markdown={asset("/astral-sidenote.md")}
+  data-separator-vertical="^\n--\n$"
+></section>
