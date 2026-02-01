@@ -8,7 +8,6 @@
   import DependencyManagementSection from "$lib/sections/DependencyManagementSection.svelte";
   import FormattingLintingSection from "$lib/sections/FormattingLintingSection.svelte";
   import TypeHintsSection from "$lib/sections/TypeHintsSection.svelte";
-  import OtherTipsSection from "$lib/sections/OtherTipsSection.svelte";
   import SummarySection from "$lib/sections/SummarySection.svelte";
   import SidenoteAstralSection from "$lib/sections/SidenoteAstralSection.svelte";
   import FeedbackSection from "$lib/sections/FeedbackSection.svelte";
@@ -28,7 +27,6 @@
     <FormattingLintingSection />
     <TypeHintsSection />
     <SidenoteAstralSection />
-    <OtherTipsSection />
     <SummarySection />
     <FeedbackSection />
   </div>
