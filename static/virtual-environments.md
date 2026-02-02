@@ -223,6 +223,8 @@ uv run hello-world.py
 
 - [ ] ## TODO exercise
 
+--
+
 ### Bonus: [PEP723](https://peps.python.org/pep-0723/) - Inline script metadata
 
 You only have a single Python script? You don't want to create `pyproject.toml`
