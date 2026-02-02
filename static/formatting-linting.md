@@ -88,7 +88,7 @@ ignore = ["E501", "W503"] # Ignore some specific linting rules
 
 Popularity
 
-![[python-linters-popularity-2025.png]]
+![python linters popularity](python-linters-popularity.png)
 
 --
 
