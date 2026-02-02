@@ -51,3 +51,13 @@ deactivate
 ```sh
 black --version
 ```
+
+# 1.3 `pyproject.toml`
+
+0. (Optional) Activate your virtual environment again
+
+1. Install from `pyproject.toml`
+
+```sh
+pip install .
+```

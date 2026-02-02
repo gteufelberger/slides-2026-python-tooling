@@ -1,0 +1,9 @@
+[project]
+name = "smy-package"
+version = "0.1.0"
+description = "A short description"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.3.3", # Our dependency
+]

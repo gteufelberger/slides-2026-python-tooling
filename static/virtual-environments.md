@@ -166,7 +166,9 @@ Supported by
 
 --
 
-- [ ] TODO: Exercise
+**Exercise 1.3**
+
+- Install dependencies from `pyproject.toml`
 
 --
 
