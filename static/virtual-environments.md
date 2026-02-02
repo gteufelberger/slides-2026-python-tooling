@@ -221,7 +221,10 @@ uv run hello-world.py
 
 --
 
-- [ ] ## TODO exercise
+**Exercise 1.4**
+
+- Install `uv`
+- Run some python script with `uv`
 
 --
 

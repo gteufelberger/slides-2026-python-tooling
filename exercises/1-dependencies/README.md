@@ -61,3 +61,19 @@ black --version
 ```sh
 pip install .
 ```
+
+# 1.4 `uv`
+
+Install `uv`
+
+```sh
+pip install uv
+```
+
+```sh
+uv run my_script.py
+```
+
+Wait, what just happened? Everything ran but we didn't install any dependencies?
+
+Yes, that's cause `uv` installs any dependencies from `pyproject.toml` automatically when run a Python script with it.
