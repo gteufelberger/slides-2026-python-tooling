@@ -1,5 +1,7 @@
 # Installing dependencies
 
+> For all the commands, make sure you are in this folder when running them.
+
 ## 1.1 `pip`
 
 Install a specific version of `pandas` from `requirements.txt`
