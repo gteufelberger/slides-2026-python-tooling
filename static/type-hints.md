@@ -52,6 +52,18 @@ ty was secretly soft released [end of November 2025](https://github.com/astral-s
 
 --
 
+Usage is still small but growing fast
+
+![Python type hinters absolute popularity](python-type-hinters-popularity-absolute.png)
+
+--
+
+Usage is still small but growing fast
+
+![Python type hinters relative popularitys](python-type-hinters-popularity-relative.png)
+
+--
+
 Try for yourself online: https://play.ty.dev/
 
 <iframe src="https://play.ty.dev/" title="ty playground" style="width: 100%; height: 70vh; border: none;"></iframe>
