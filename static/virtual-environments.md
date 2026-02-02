@@ -43,7 +43,11 @@ my_virtual_env\Scripts\activate
 
 --
 
-- [ ] TODO Exercise
+**Exercise 1.2**
+
+- Set up virtual environment and activate it
+- Install dependency and check it was installed
+- Deactivate virtual environment again and notice that access to dependency is gone
 
 --
 

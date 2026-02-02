@@ -63,7 +63,10 @@ pandas=2.2.3
 
 --
 
-- [ ] TODO: Exercise here
+**Exercise 1.1**
+
+- Open `exercises/1-dependencies/README.md`
+- Install dependencies via `requirements.txt`
 
 --
 
