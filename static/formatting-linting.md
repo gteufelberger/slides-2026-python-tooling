@@ -68,7 +68,7 @@ Found 1 error.
 
 **Exercise 2.1**
 
-- use `ruff` to fix a linting error
+- Use `ruff` to fix a linting error
 
 --
 
