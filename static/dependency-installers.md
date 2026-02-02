@@ -9,7 +9,7 @@
 You need `numpy` and `pandas` in your Python script.
 What do you do?
 
--> `pip install numpy pandas`
+→ `pip install numpy pandas`
 
 --
 
@@ -25,7 +25,7 @@ What if you share your code?
 
 How do you make it easy for someone to install the same dependencies?
 
--> `pip install -r requirements.txt`
+→ `pip install -r requirements.txt`
 
 --
 

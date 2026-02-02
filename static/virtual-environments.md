@@ -64,7 +64,7 @@ Some tools that exist:
 - **conda**
 - poetry
 - pipenv
-- uv <- more on that one later
+- uv ← more on that one later
 
 --
 

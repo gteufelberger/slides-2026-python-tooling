@@ -38,7 +38,7 @@ Tools that exist are
 - flake8
 - autoflake
 - pyflakes
-- ruff <- 👀
+- ruff ← 👀
 
 --
 

@@ -40,7 +40,7 @@ Tools that do static type checking:
 - `mypy`
 - `Pyrefly`
 - `Pyright`
-- `ty` <- ✨
+- `ty` ← ✨
 
 --
 
