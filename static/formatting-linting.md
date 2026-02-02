@@ -20,6 +20,12 @@ Or even better ✨ `ruff` ✨
 
 --
 
+**Exercise 2.1**
+
+- Use `ruff` to fix the formatting of some Python code
+
+--
+
 #### Linting
 
 > Process of doing static anylisis to find issues in your code
@@ -66,7 +72,7 @@ Found 1 error.
 
 --
 
-**Exercise 2.1**
+**Exercise 2.2**
 
 - Use `ruff` to fix a linting error
 
