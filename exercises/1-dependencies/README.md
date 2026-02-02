@@ -77,3 +77,13 @@ uv run my_script.py
 Wait, what just happened? Everything ran but we didn't install any dependencies?
 
 Yes, that's cause `uv` installs any dependencies from `pyproject.toml` automatically when run a Python script with it.
+
+# 1.5 Embedded dependencies
+
+1. Look at `embedded_dependencies.py` and specifically the header comment
+
+2. Run the Python script with `uv` and observe the output
+
+```sh
+uv run embedded_dependencies.py
+```

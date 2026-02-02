@@ -251,4 +251,6 @@ pprint([(k, v["title"]) for k, v in data.items()][:10])
 
 --
 
-- [ ] TODO exercise
+**Exercise 1.5**
+
+- Use `uv` to run the script with embedded dependencies
