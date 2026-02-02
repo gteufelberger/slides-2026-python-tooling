@@ -52,7 +52,7 @@ deactivate
 black --version
 ```
 
-# 1.3 `pyproject.toml`
+## 1.3 `pyproject.toml`
 
 0. (Optional) Activate your virtual environment again
 
@@ -62,7 +62,7 @@ black --version
 pip install .
 ```
 
-# 1.4 `uv`
+## 1.4 `uv`
 
 Install `uv`
 
@@ -78,7 +78,7 @@ Wait, what just happened? Everything ran but we didn't install any dependencies?
 
 Yes, that's cause `uv` installs any dependencies from `pyproject.toml` automatically when run a Python script with it.
 
-# 1.5 Embedded dependencies
+## 1.5 Embedded dependencies
 
 1. Look at `embedded_dependencies.py` and specifically the header comment
 
