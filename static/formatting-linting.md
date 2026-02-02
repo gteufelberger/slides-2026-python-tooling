@@ -61,6 +61,8 @@ df = pd.DataFrame(data={'col1': [1, 2], 'col2': [3, 4]})
 df
 ```
 
+Ruff output:
+
 ```sh
 example.py:1:1: F401 [*] `os` imported but unused
   |
