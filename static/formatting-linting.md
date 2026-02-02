@@ -16,6 +16,10 @@ Or even better ✨ `ruff` ✨
 
 --
 
+![Python formatters popularity](python-formatters-popularity.png)
+
+--
+
 #### Linting
 
 > Process of doing static anylisis to find issues in your code
