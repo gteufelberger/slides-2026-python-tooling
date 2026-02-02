@@ -62,7 +62,9 @@ Found 1 error.
 
 --
 
-- [ ] TODO: Example
+**Exercise 2.1**
+
+- use `ruff` to fix a linting error
 
 --
 
