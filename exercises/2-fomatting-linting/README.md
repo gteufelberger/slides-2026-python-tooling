@@ -14,7 +14,19 @@ ruff format unformatted.py
 
 3. Look at the file again
 
-## 2.2 Using ruff for linting
+## 2.2 Using ruff for formatting a Jupyter Notebook
+
+1. Open `unformatted.ipynb` and look at it.
+
+2. Run `ruff` to format the file
+
+```sh
+ruff format unformatted.ipynb
+```
+
+3. Look at the file again
+
+## 2.3 Using ruff for linting
 
 1. Open `unused-import.py` and you should see the unused import highlighted.
 

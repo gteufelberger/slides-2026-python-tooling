@@ -26,6 +26,16 @@ Or even better ✨ `ruff` ✨
 
 --
 
+It can even format code Jupyter Notebooks!
+
+--
+
+**Exercise 2.2**
+
+- Use `ruff` to fix the formatting of Python code in some Jupyter Notebook.
+
+--
+
 #### Linting
 
 > Process of doing static anylisis to find issues in your code
@@ -74,7 +84,7 @@ Found 1 error.
 
 --
 
-**Exercise 2.2**
+**Exercise 2.3**
 
 - Use `ruff` to fix a linting error
 
