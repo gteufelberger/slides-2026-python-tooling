@@ -53,9 +53,8 @@ Tools that exist are
 --
 
 Speed comparison ⚡
-![[ruff-vs-other-linters.mp4]]
 
-TODO
+<video controls src="ruff-vs-other-linters.mp4" title="Speed comparison Python Linters"></video>
 
 --
 
