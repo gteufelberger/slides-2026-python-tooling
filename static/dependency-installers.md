@@ -63,6 +63,13 @@ pandas=2.2.3
 
 --
 
+### Exercises
+
+Code and instructions to the exercises can be found in the repo via:\
+https://github.com/gteufelberger/slides-2026-python-tooling
+
+--
+
 **Exercise 1.1**
 
 - Open `exercises/1-dependencies/README.md`
