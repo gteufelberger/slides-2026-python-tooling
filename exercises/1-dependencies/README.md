@@ -80,7 +80,23 @@ Wait, what just happened? Everything ran but we didn't install any dependencies?
 
 Yes, that's cause `uv` installs any dependencies from `pyproject.toml` automatically when run a Python script with it.
 
-## 1.5 Embedded dependencies
+## 1.5 Python versions
+
+1. Install Python 3.12 an 3.14
+
+```
+uv python install 3.12
+uv python install 3.14
+```
+
+2. Run the different Python versions and look at the output
+
+```
+uvx python@3.12 --version
+uvx python@3.14 --version
+```
+
+## 1.6 Embedded dependencies
 
 1. Look at `embedded_dependencies.py` and specifically the header comment
 

@@ -235,6 +235,18 @@ uv run hello-world.py
 
 --
 
+`uv` can even install different Python versions!
+
+Useful when working on multiple projects with different Python versions
+
+--
+
+**Exercise 1.5**
+
+Use `uv` to install different Python versions and execute them
+
+--
+
 ### Bonus: [PEP723](https://peps.python.org/pep-0723/) - Inline script metadata
 
 You only have a single Python script? You don't want to create `pyproject.toml`
@@ -258,6 +270,6 @@ pprint([(k, v["title"]) for k, v in data.items()][:10])
 
 --
 
-**Exercise 1.5**
+**Exercise 1.6**
 
 - Use `uv` to run the script with embedded dependencies
