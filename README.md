@@ -2,6 +2,10 @@
 
 To view the slides, go to https://gteufelberger.github.io/slides-2026-python-tooling/
 
+## Exercises
+
+The exercises are located in the `exercises/` folder with instructions in the corresponding README files.
+
 ## Development
 
 To run the slides locally, use `bun`
