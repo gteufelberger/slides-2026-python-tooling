@@ -228,6 +228,13 @@ uv run hello-world.py
 
 --
 
+**`uv.lock`**
+
+- Stores exact version of all packages installed
+- Ensures environments are reproducible
+
+--
+
 ### Bonus: [PEP723](https://peps.python.org/pep-0723/) - Inline script metadata
 
 You only have a single Python script? You don't want to create `pyproject.toml`
