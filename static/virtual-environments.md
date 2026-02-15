@@ -243,6 +243,18 @@ Useful when working on multiple projects with different Python versions
 
 **Exercise 1.5**
 
+Use `uv` to create a new project.
+
+--
+
+**Exercise 1.6**
+
+Add `uv` to an existing project
+
+--
+
+**Exercise 1.7**
+
 Use `uv` to install different Python versions and execute them
 
 --
@@ -270,6 +282,6 @@ pprint([(k, v["title"]) for k, v in data.items()][:10])
 
 --
 
-**Exercise 1.6**
+**Exercise 1.8**
 
 - Use `uv` to run the script with embedded dependencies
