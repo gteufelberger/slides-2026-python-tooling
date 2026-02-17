@@ -84,6 +84,8 @@ Activate it
 conda activate my_virtual_env
 ```
 
+--
+
 And then either
 
 ```bash
